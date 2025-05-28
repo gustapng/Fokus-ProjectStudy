@@ -1,50 +1,125 @@
-# Welcome to your Expo app 👋
+# Fokus ⏳
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Fokus é um app de técnica Pomodoro desenvolvido como parte dos meus estudos no curso de React Native da [Alura](https://www.alura.com.br/). Este projeto tem como objetivo colocar em prática conceitos de desenvolvimento mobile utilizando [Expo](https://expo.dev) e React Native.
 
-## Get started
+> ⚠️ **Este é um projeto de estudo. Não se trata de um app pronto para produção.**
 
-1. Install dependencies
+## 🚀 Tecnologias
 
-   ```bash
-   npm install
-   ```
+- React Native
+- Expo
+- JavaScript
 
-2. Start the app
+## 📲 Como rodar o projeto
 
-   ```bash
-   npx expo start
-   ```
+### Pré-requisitos
 
-In the output, you'll find options to open the app in a
+- Ter o [Node.js](https://nodejs.org/) instalado
+- Ter o [Expo CLI](https://docs.expo.dev/get-started/installation/) instalado globalmente (opcional, mas recomendado)
+- Um emulador Android/iOS configurado ou o app [Expo Go](https://expo.dev/go) no seu dispositivo físico
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Passos
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clone este repositório:
 
 ```bash
-npm run reset-project
+git clone https://github.com/seu-usuario/fokus.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Acesse a pasta do projeto:
 
-## Learn more
+```bash
+cd fokus
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Instale as dependências:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+4. Inicie o projeto:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5. Abra no seu dispositivo:
+
+- Escaneie o QR Code com o app **Expo Go** (disponível na Play Store e App Store)
+- Ou execute em um emulador Android/iOS configurado
+
+## 🛠 Estrutura
+
+O projeto está organizado dentro da pasta `app`, utilizando **file-based routing** disponibilizado pelo Expo Router.
+
+## 📚 Créditos
+
+Este projeto foi desenvolvido durante o curso de React Native da [Alura](https://www.alura.com.br/).
+
+## 📄 Licença
+
+Este projeto é apenas para fins de estudo. Sinta-se livre para utilizá-lo como referência.
+
+# Fokus ⏳
+
+Fokus is a Pomodoro timer app developed as part of my studies in the React Native course by [Alura](https://www.alura.com.br/). This project aims to practice mobile development concepts using [Expo](https://expo.dev) and React Native.
+
+> ⚠️ **This is a study project. It is not intended for production use.**
+
+## 🚀 Technologies
+
+- React Native
+- Expo
+- JavaScript
+
+## 📲 How to run the project
+
+### Requirements
+
+- [Node.js](https://nodejs.org/) installed
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally (optional but recommended)
+- An Android/iOS emulator configured or the [Expo Go](https://expo.dev/go) app installed on your physical device
+
+### Steps
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/your-username/fokus.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd fokus
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+4. Start the project:
+
+```bash
+npx expo start
+```
+
+5. Open the app on your device:
+
+- Scan the QR Code using the **Expo Go** app (available on Play Store and App Store)
+- Or run it on a configured Android/iOS emulator
+
+## 🛠 Project structure
+
+The project is organized inside the `app` folder, using **file-based routing** provided by Expo Router.
+
+## 📚 Credits
+
+This project was developed during the React Native course by [Alura](https://www.alura.com.br/).
+
+## 📄 License
+
+This project is for study purposes only. Feel free to use it as a reference.
